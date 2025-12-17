@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yathaarth Rajput | Portfolio</title>
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+  <nav>
+    <h1 class="logo">Yathaarth Rajput</h1>
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+    <label for="menu-toggle" class="menu-btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+  </nav>
+</header>
+
+
+<!-- ABOUT -->
+<section id="about" class="section about">
+  <div class="content">
+    <h2>About Me</h2>
+    <div class="about-wrapper">
+      <!-- Profile Picture -->
+      <div class="pfp-container">
+  <img src="images/profile.jpeg" alt="Yathaarth Rajput" class="profile-pic">
+</div>
+
+      <!-- About Text -->
+      <div class="about-text">
+        <p>Hello! I'm <strong>Yathaarth Rajput</strong>, a Computer Science student at SRM IST. I am passionate about Web Development, App Development, Software Engineering, and building impactful projects using modern technologies. I aim to combine creativity with problem-solving to create meaningful digital solutions.</p>
+        <a href="file:///C:/Users/yatha/Downloads/Resume.pdf.pdf" download class="btn">📄 Download Resume</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">Python</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">C</div>
+      <div class="skill">HTML & CSS</div>
+      <div class="skill">MySQL</div>
+      <div class="skill">Git & GitHub</div>
+      <div class="skill">Visual Studio Code</div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section projects">
+  <h2>Projects</h2>
+
+  <p>
+    View all at:
+    <a href="https://github.com/yathaarthrajput" target="_blank">
+      github.com/yathaarthrajput
+    </a>
+  </p>
+
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <h3>🎓 Student Database System</h3>
+      <p>
+        <a href="https://github.com/yathaarthrajput/Student-Marks-Manager/blob/main/aiml%20Project.py"
+           target="_blank">
+          View Project
+        </a>
+      </p>
+      <p>
+        Python application to manage student data such as roll number,
+        name, and course details.
+      </p>
+    </div>
+
+  </div>
+ <!-- =========================
+     CALCULATOR
+========================= -->
+<section id="calculator" class="section calculator">
+  <h2>Simple Calculator</h2>
+  <div class="calculator-box">
+    <input type="text" id="calcInput" placeholder="Enter expression e.g., 2+2">
+
+    <div class="calc-buttons">
+      <button onclick="appendCalc('1')">1</button>
+      <button onclick="appendCalc('2')">2</button>
+      <button onclick="appendCalc('3')">3</button>
+      <button onclick="appendCalc('+')">+</button>
+
+      <button onclick="appendCalc('4')">4</button>
+      <button onclick="appendCalc('5')">5</button>
+      <button onclick="appendCalc('6')">6</button>
+      <button onclick="appendCalc('-')">-</button>
+
+      <button onclick="appendCalc('7')">7</button>
+      <button onclick="appendCalc('8')">8</button>
+      <button onclick="appendCalc('9')">9</button>
+      <button onclick="appendCalc('*')">*</button>
+
+      <button onclick="appendCalc('0')">0</button>
+      <button onclick="clearCalc()">C</button>
+      <button onclick="calculateResult()">=</button>
+      <button onclick="appendCalc('/')">/</button>
+    </div>
+
+    <p id="calcResult"></p>
+  </div>
+</section>
+
+
+</section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section education">
+    <h2>Education</h2>
+    <div class="edu-item">
+      <h3>Rukmani Devi Jaipuria Public School, New Delhi</h3>
+      <p>Class 10th (CBSE): 92.2% | Subjects: English, Hindi, Maths, Science, Social Studies, Information technology</p>
+    </div>
+    <div class="edu-item">
+      <h3>Sant Gyaneshwar Model School, New Delhi</h3>
+      <p>Class 11th: 92.4% | Class 12th (CBSE): 75.4%</p>
+      <p>Subjects: English, Physics, Chemistry, Maths, Physical Education</p>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" class="section achievements">
+    <h2>Key Achievements</h2>
+    <ul>
+      <li>📜 Participation in Ideathon - Entrepreneurship 101 (<a href="https://unstop.com/certificate-preview/31a36f14-119c-40f7-9a33-093824fdb142" target="_blank">verify</a>)</li>
+      <li>📜 HTML Certification - SoloLearn (<a href="https://api2.sololearn.com/v2/certificates/CC-PLKNTZV4/image/png?t=638987278253156340" target="_blank">verify</a>)</li>
+    </ul>
+  </section>
+
+  <!-- HOBBIES -->
+  <section id="hobbies" class="section hobbies">
+    <h2>Hobbies & Interests</h2>
+    <ul>
+      <li>Sports: Chess & Cricket</li>
+      <li>Music: Hip-Hop & EDM</li>
+      <li>Movies</li>
+    </ul>
+  </section>
+
+<section id="contact" class="section contact">
+  <h2>Contact</h2>
+
+  <form id="contactForm" novalidate>
+    <input type="text" id="name" placeholder="Your Name" />
+    <input type="email" id="email" placeholder="Your Email" />
+    <textarea id="message" placeholder="Your Message"></textarea>
+
+    <button type="submit" class="btn">Send Message</button>
+    <p id="formMsg"></p>
+  </form>
+  <!-- SOCIAL LINKS -->
+<div class="social-links">
+  <a href="https://github.com/yathaarthrajput" target="_blank" class="social github">
+    GitHub
+  </a>
+  <a href="https://www.linkedin.com/in/yathaarth-rajput-52a110339/" target="_blank" class="social linkedin">
+    LinkedIn
+  </a>
+</div>
+
+</section>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Yathaarth Rajput | Built For My E-Cell Task using HTML & CSS & JavaScript</p>
+  </footer>
+
+<script src="JS/script.js"></script>
+
+</body>
+</html>
